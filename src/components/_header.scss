@@ -1,0 +1,15 @@
+@use "../variables";
+
+.header {
+  background-color: variables.$bg-dark;
+  font-family: variables.$text-font;
+}
+.header__title {
+  display: flex;
+  justify-content: center;
+  color: variables.$bg-light;
+}
+.header__subtitle {
+  display: flex;
+  justify-content: center;
+}
