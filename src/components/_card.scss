@@ -1,0 +1,76 @@
+@use "../variables";
+
+.card {
+  margin: 30px;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px grey;
+  background-color: white;
+}
+
+.card__card-head {
+  position: relative;
+}
+
+.card__card-body {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.card-body__left {
+  width: 60%;
+  padding: 10px;
+}
+.card-body__right {
+  width: 40%;
+  align-self: center;
+  line-height: 2rem;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  padding: 20px 5px 20px 5px;
+}
+.card-head__img {
+  opacity: 0.8;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+.card-head__img:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.card-head__heading {
+  position: absolute;
+  top: 0px;
+  left: 16px;
+  color: variables.$bg-light;
+  font-size: 1.6rem;
+}
+
+.card__card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.card__btn-route {
+  background-color: variables.$bg-dark;
+  color: variables.$text-light;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  font-size: 1.5rem;
+  padding: 0 10px 3px 10px;
+  box-shadow: 0 0 10px lightgrey;
+}
+
+.card__btn-info {
+  background-color: variables.$text-light;
+  border: 1px solid variables.$bg-dark;
+  border-radius: 30px;
+  outline: none;
+  font-size: 1.5rem;
+  padding: 0 10px 3px 10px;
+  box-shadow: 0 0 10px lightgrey;
+}

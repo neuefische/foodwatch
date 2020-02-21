@@ -7,6 +7,13 @@
 .body {
   margin: 0;
   font-size: 16px;
+  font-family: Roboto;
+  background-color: #f4f4f4;
+}
+
+.main {
+  margin-top: 140px;
+  margin-bottom: 90px;
 }
 
 .header {
@@ -17,6 +24,7 @@
   left: 0;
   right: 0;
   box-shadow: 0px 5px 5px lightgrey;
+  z-index: 100;
 }
 
 .header__title {
@@ -67,6 +75,85 @@
 
 .nav__a {
   width: 25%;
+}
+
+.card {
+  margin: 30px;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px grey;
+  background-color: white;
+}
+
+.card__card-head {
+  position: relative;
+}
+
+.card__card-body {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.card-body__left {
+  width: 60%;
+  padding: 10px;
+}
+
+.card-body__right {
+  width: 40%;
+  align-self: center;
+  line-height: 2rem;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  padding: 20px 5px 20px 5px;
+}
+
+.card-head__img {
+  opacity: 0.8;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.card-head__img:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.card-head__heading {
+  position: absolute;
+  top: 0px;
+  left: 16px;
+  color: #f2e880;
+  font-size: 1.6rem;
+}
+
+.card__card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.card__btn-route {
+  background-color: #356211;
+  color: #f4f4f4;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  font-size: 1.5rem;
+  padding: 0 10px 3px 10px;
+  box-shadow: 0 0 10px lightgrey;
+}
+
+.card__btn-info {
+  background-color: #f4f4f4;
+  border: 1px solid #356211;
+  border-radius: 30px;
+  outline: none;
+  font-size: 1.5rem;
+  padding: 0 10px 3px 10px;
+  box-shadow: 0 0 10px lightgrey;
 }
 
 /*# sourceMappingURL=styles.css.map */
