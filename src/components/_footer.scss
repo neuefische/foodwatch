@@ -20,6 +20,14 @@
   cursor: pointer;
 }
 
+.nav__button-center,
+.nav__a-center {
+  border-radius: 100px;
+  height: 80px;
+  width: 80px;
+  bottom: 50px;
+}
+
 .nav__button:hover {
   opacity: 0.9;
   font-size: 2.4rem;
