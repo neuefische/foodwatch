@@ -90,6 +90,7 @@
 
 .card__card-body {
   display: flex;
+  flex-wrap: wrap;
   padding: 10px;
 }
 
@@ -120,11 +121,17 @@
   font-size: 1.6rem;
 }
 
+.card__card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
 .card__btn-route {
   background-color: #356211;
   color: #f4f4f4;
   border: none;
-  margin: 5px;
   border-radius: 30px;
   outline: none;
   font-size: 1.5rem;
@@ -137,7 +144,6 @@
   border: 1px solid #356211;
   border-radius: 30px;
   outline: none;
-  margin: 5px;
   font-size: 1.5rem;
   padding: 0 10px 3px 10px;
   box-shadow: 0 0 10px lightgrey;

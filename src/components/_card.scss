@@ -43,7 +43,10 @@
 }
 
 .card__card-footer {
-  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
 }
 .card__btn-route {
   background-color: variables.$bg-dark;
