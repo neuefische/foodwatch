@@ -7,5 +7,10 @@
 .body {
   margin: 0;
   font-size: 16px;
+  font-family: variables.$text-font;
   background-color: variables.$text-light;
+}
+
+.main {
+  margin-top: 140px;
 }
