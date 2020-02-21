@@ -1,0 +1,25 @@
+{
+  "name": "foodwatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neuefische/foodwatch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neuefische/foodwatch/issues"
+  },
+  "homepage": "https://github.com/neuefische/foodwatch#readme",
+  "devDependencies": {
+    "csslint": "^1.0.5",
+    "htmlhint": "^0.11.0",
+    "prettier": "^1.19.1",
+    "sass": "^1.25.0"
+  }
+}
