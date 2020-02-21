@@ -1,3 +1,23 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
 
+.header {
+  background-color: #356211;
+  font-family: Roboto;
+}
+
+.header__title {
+  display: flex;
+  justify-content: center;
+  color: #f2e880;
+}
+
+.header__subtitle {
+  display: flex;
+  justify-content: center;
+}
 
 /*# sourceMappingURL=styles.css.map */
