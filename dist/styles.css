@@ -24,6 +24,7 @@
   left: 0;
   right: 0;
   box-shadow: 0px 5px 5px lightgrey;
+  z-index: 100;
 }
 
 .header__title {
@@ -96,10 +97,16 @@
 
 .card-body__left {
   width: 60%;
+  padding: 10px;
 }
 
 .card-body__right {
   width: 40%;
+  align-self: center;
+  line-height: 2rem;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  padding: 20px 5px 20px 5px;
 }
 
 .card-head__img {
