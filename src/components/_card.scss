@@ -12,6 +12,18 @@
   position: relative;
 }
 
+.card__card-body {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.card-body__left {
+  width: 60%;
+}
+.card-body__right {
+  width: 40%;
+}
 .card-head__img {
   opacity: 0.8;
   width: 100%;
@@ -28,4 +40,28 @@
   left: 16px;
   color: variables.$bg-light;
   font-size: 1.6rem;
+}
+
+.card__card-footer {
+  margin: 0 auto;
+}
+.card__btn-route {
+  background-color: variables.$bg-dark;
+  color: variables.$text-light;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  font-size: 1.5rem;
+  padding: 0 10px 3px 10px;
+  box-shadow: 0 0 10px lightgrey;
+}
+
+.card__btn-info {
+  background-color: variables.$text-light;
+  border: 1px solid variables.$bg-dark;
+  border-radius: 30px;
+  outline: none;
+  font-size: 1.5rem;
+  padding: 0 10px 3px 10px;
+  box-shadow: 0 0 10px lightgrey;
 }

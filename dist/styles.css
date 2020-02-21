@@ -13,6 +13,7 @@
 
 .main {
   margin-top: 140px;
+  margin-bottom: 90px;
 }
 
 .header {
@@ -87,6 +88,19 @@
   position: relative;
 }
 
+.card__card-body {
+  display: flex;
+  padding: 10px;
+}
+
+.card-body__left {
+  width: 60%;
+}
+
+.card-body__right {
+  width: 40%;
+}
+
 .card-head__img {
   opacity: 0.8;
   width: 100%;
@@ -104,6 +118,29 @@
   left: 16px;
   color: #f2e880;
   font-size: 1.6rem;
+}
+
+.card__btn-route {
+  background-color: #356211;
+  color: #f4f4f4;
+  border: none;
+  margin: 5px;
+  border-radius: 30px;
+  outline: none;
+  font-size: 1.5rem;
+  padding: 0 10px 3px 10px;
+  box-shadow: 0 0 10px lightgrey;
+}
+
+.card__btn-info {
+  background-color: #f4f4f4;
+  border: 1px solid #356211;
+  border-radius: 30px;
+  outline: none;
+  margin: 5px;
+  font-size: 1.5rem;
+  padding: 0 10px 3px 10px;
+  box-shadow: 0 0 10px lightgrey;
 }
 
 /*# sourceMappingURL=styles.css.map */
