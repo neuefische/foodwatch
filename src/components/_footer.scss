@@ -1,1 +1,37 @@
 @use "../variables";
+
+.nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px -5px 5px lightgrey;
+}
+
+.nav__button {
+  border: 0;
+  outline: 0;
+  height: 70px;
+  width: 100%;
+  background-color: variables.$text-accent;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.nav__button:hover {
+  opacity: 0.9;
+  font-size: 2.4rem;
+  transition: 0.5s;
+}
+
+.nav__button--active,
+.nav__button:active {
+  background-color: variables.$text-accent-dark;
+  font-size: 2.2rem;
+}
+
+.nav__a {
+  width: 25%;
+}
