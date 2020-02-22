@@ -14,6 +14,8 @@
 .main {
   margin-top: 140px;
   margin-bottom: 90px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .header {
@@ -83,6 +85,10 @@
   border-radius: 15px;
   box-shadow: 0px 0px 15px grey;
   background-color: white;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 33.3333%;
+  flex-basis: 300px;
 }
 
 .card__card-head {
