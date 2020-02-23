@@ -1,10 +1,9 @@
 @use "../variables";
 
 .btn-container {
-  margin: 0px 0px 0px 30px;
+  margin: 10px 0px 0px 30px;
   padding: 5px;
-  display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .btn-container__button-pizza,
@@ -13,7 +12,7 @@
 .btn-container__button-vegan {
   background-color: variables.$text-accent;
   border-radius: 7px;
-  margin: 4px;
+  margin: 2px;
   font-size: 1rem;
   font-family: variables.$text-font;
   color: black;

@@ -162,4 +162,22 @@
   box-shadow: 0 0 10px lightgrey;
 }
 
+.btn-container {
+  margin: 10px 0px 0px 30px;
+  padding: 5px;
+  flex-direction: row;
+}
+
+.btn-container__button-pizza,
+.btn-container__button-salat,
+.btn-container__button-pasta,
+.btn-container__button-vegan {
+  background-color: #c15c37;
+  border-radius: 7px;
+  margin: 2px;
+  font-size: 1rem;
+  font-family: Roboto;
+  color: black;
+}
+
 /*# sourceMappingURL=styles.css.map */
