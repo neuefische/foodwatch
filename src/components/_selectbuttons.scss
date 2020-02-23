@@ -1,0 +1,20 @@
+@use "../variables";
+
+.btn-container {
+  margin: 0px 0px 0px 30px;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn-container__button-pizza,
+.btn-container__button-salat,
+.btn-container__button-pasta,
+.btn-container__button-vegan {
+  background-color: variables.$text-accent;
+  border-radius: 7px;
+  margin: 4px;
+  font-size: 1rem;
+  font-family: variables.$text-font;
+  color: black;
+}
