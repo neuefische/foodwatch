@@ -4,16 +4,14 @@
   margin: 10px 0px 0px 30px;
   padding: 5px;
   flex-direction: row;
+  width: 100%;
 }
 
-.btn-container__button-pizza,
-.btn-container__button-salat,
-.btn-container__button-pasta,
-.btn-container__button-vegan {
+.btn-container__button {
   background-color: variables.$text-accent;
-  border-radius: 7px;
+  border-radius: 30px;
   margin: 2px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: variables.$text-font;
   color: black;
 }
