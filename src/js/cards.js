@@ -1,7 +1,6 @@
-"use strict";
 import { database } from "./database.js";
 
-function addCard(content, position) {
+export function addCard(content, position) {
   const title = content.name;
   const picture = content.img;
   const text = content.text;
@@ -81,10 +80,3 @@ function addCard(content, position) {
   menuA.appendChild(btnMenu);
   position.appendChild(card);
 }
-
-const position = document.querySelector(".main");
-window.addEventListener("load", () => {
-  for (let i = 0; i < database.length; i++) {
-    addCard(database[i], position);
-  }
-});
