@@ -1,4 +1,5 @@
 "use strict";
+import { database } from "databse.js";
 
 function addCard(content, position) {
   const title = content[0];
@@ -78,22 +79,10 @@ function addCard(content, position) {
   routeA.appendChild(btnRoute);
   footer.appendChild(menuA);
   menuA.appendChild(btnMenu);
-
   position.appendChild(card);
 }
-
-const example = [
-  "Mr.Eat",
-  "https://images.unsplash.com/photo-1542528180-0c79567c66de?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-  "blablabla",
-  "⭐️⭐️⭐️⭐️",
-  "💵💵💵💵",
-  "🥦",
-  "#",
-  "#"
-];
 
 const position = document.querySelector(".main");
 document
   .querySelector(".body")
-  .addEventListener("load", addCard(example, position));
+  .addEventListener("load", addCard(database.bellaItalia, position));
