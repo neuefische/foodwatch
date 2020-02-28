@@ -1,4 +1,4 @@
-export function addCard(content, position) {
+function createCard(content, position) {
   const title = content.name;
   const picture = content.img;
   const text = content.text;
@@ -77,6 +77,12 @@ export function addCard(content, position) {
   footer.appendChild(menuA);
   menuA.appendChild(btnMenu);
   position.appendChild(card);
+}
+
+export function addCard(database, position) {
+  for (let i = 0; i < database.length; i++) {
+    createCard(database[i], position);
+  }
 }
 
 export function removeAllCards(element) {
