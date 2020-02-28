@@ -1,6 +1,7 @@
 export function filter(database, filter) {
+  filter = filter.toLowerCase();
   const filteredDatabase = database.filter(restaurant =>
     restaurant.filter.includes(filter)
   );
-  console.log(filteredDatabase);
+  return filteredDatabase;
 }

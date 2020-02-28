@@ -1,5 +1,3 @@
-import { database } from "./database.js";
-
 export function addCard(content, position) {
   const title = content.name;
   const picture = content.img;
@@ -79,4 +77,8 @@ export function addCard(content, position) {
   footer.appendChild(menuA);
   menuA.appendChild(btnMenu);
   position.appendChild(card);
+}
+
+export function removeAllCards(element) {
+  element.innerHTML = "";
 }
