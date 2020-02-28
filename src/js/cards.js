@@ -62,4 +62,38 @@ function addCard(content, position) {
   const btnMenu = document.createElement("button");
   btnMenu.classList = "card__btn-info";
   btnMenu.innerText = "Speisekarte";
+
+  card.appendChild(head);
+  head.appendChild(image);
+  head.appendChild(heading);
+  card.appendChild(body);
+  body.appendChild(left);
+  left.appendChild(info);
+  body.appendChild(right);
+  right.appendChild(rating);
+  right.appendChild(money);
+  right.appendChild(labels);
+  card.appendChild(footer);
+  footer.appendChild(routeA);
+  routeA.appendChild(btnRoute);
+  footer.appendChild(menuA);
+  menuA.appendChild(btnMenu);
+
+  position.appendChild(card);
 }
+
+const example = [
+  "Mr.Eat",
+  "https://images.unsplash.com/photo-1542528180-0c79567c66de?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
+  "blablabla",
+  "⭐️⭐️⭐️⭐️",
+  "💵💵💵💵",
+  "🥦",
+  "#",
+  "#"
+];
+
+const position = document.querySelector(".main");
+document
+  .querySelector(".body")
+  .addEventListener("load", addCard(example, position));
