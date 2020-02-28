@@ -1,15 +1,15 @@
 "use strict";
-import { database } from "databse.js";
+import { database } from "./database.js";
 
 function addCard(content, position) {
-  const title = content[0];
-  const picture = content[1];
-  const text = content[2];
-  const stars = content[3];
-  const price = content[4];
-  const category = content[5];
-  const route = content[6];
-  const menu = content[7];
+  const title = content.name;
+  const picture = content.img;
+  const text = content.text;
+  const stars = content.stars;
+  const price = content.money;
+  const category = content.category;
+  const route = content.route;
+  const menu = content.menu;
 
   const card = document.createElement("div");
   card.classList = "card";
@@ -83,6 +83,8 @@ function addCard(content, position) {
 }
 
 const position = document.querySelector(".main");
-document
-  .querySelector(".body")
-  .addEventListener("load", addCard(database.bellaItalia, position));
+window.addEventListener("load", () => {
+  for (let i = 0; i < database.length; i++) {
+    addCard(database[i], position);
+  }
+});
