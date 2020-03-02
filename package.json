@@ -1,7 +1,6 @@
 {
   "name": "foodwatch",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "sass src/styles.scss dist/styles.css",
@@ -24,6 +23,7 @@
     "htmlhint": "^0.11.0",
     "now": "^17.0.4",
     "prettier": "^1.19.1",
-    "sass": "^1.25.0"
-  }
+    "sass": "^1.26.2"
+  },
+  "description": ""
 }
