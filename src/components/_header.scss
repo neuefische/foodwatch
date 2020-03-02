@@ -9,16 +9,12 @@
   right: 0;
   box-shadow: 0px 5px 5px lightgrey;
   z-index: 100;
-}
-.header__title {
+
+  height: 15vh;
   display: flex;
   justify-content: center;
-  color: variables.$bg-light;
-  margin-bottom: 0;
+  justify-items: center;
 }
-.header__subtitle {
-  color: variables.$text-brown;
-  display: flex;
-  justify-content: center;
-  margin-top: 0;
+.header__logo {
+  margin: 15px;
 }
