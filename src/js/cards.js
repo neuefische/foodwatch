@@ -1,7 +1,4 @@
-"use strict";
-import { database } from "./database.js";
-
-function addCard(content, position) {
+function createCard(content, position) {
   const title = content.name;
   const picture = content.img;
   const text = content.text;
@@ -82,9 +79,12 @@ function addCard(content, position) {
   position.appendChild(card);
 }
 
-const position = document.querySelector(".main");
-window.addEventListener("load", () => {
+export function addCard(database, position) {
   for (let i = 0; i < database.length; i++) {
-    addCard(database[i], position);
+    createCard(database[i], position);
   }
-});
+}
+
+export function removeAllCards(element) {
+  element.innerHTML = "";
+}

@@ -20,9 +20,10 @@
   "homepage": "https://github.com/neuefische/foodwatch#readme",
   "devDependencies": {
     "csslint": "^1.0.5",
+    "eslint": "^6.8.0",
     "htmlhint": "^0.11.0",
+    "now": "^17.0.4",
     "prettier": "^1.19.1",
-    "sass": "^1.25.0",
-    "eslint": "^6.8.0"
+    "sass": "^1.25.0"
   }
 }

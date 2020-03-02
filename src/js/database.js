@@ -9,7 +9,8 @@ export const database = [
     money: "💵",
     category: "🥦🌱",
     route: "#",
-    menu: "#"
+    menu: "#",
+    filter: ["vegan", "vegetarisch"]
   },
   {
     name: "Bella Italia",
@@ -21,7 +22,8 @@ export const database = [
     money: "💵",
     category: "🥦",
     route: "#",
-    menu: "#"
+    menu: "#",
+    filter: ["pizza", "vegetarisch"]
   },
 
   {
@@ -34,7 +36,8 @@ export const database = [
     money: "💵💵💵",
     category: "🥦🌱",
     route: "#",
-    menu: "#"
+    menu: "#",
+    filter: ["vegan", "vegetarisch"]
   },
 
   {
@@ -47,7 +50,8 @@ export const database = [
     money: "💵💵",
     category: "🥦🌱",
     route: "#",
-    menu: "#"
+    menu: "#",
+    filter: ["vegan", "vegetarisch"]
   },
 
   {
@@ -60,10 +64,11 @@ export const database = [
     money: "💵💵💵",
     category: "🥦🌱",
     route: "#",
-    menu: "#"
+    menu: "#",
+    filter: ["vegan", "vegetarisch", "burger"]
   },
   {
-    name: "Supersal",
+    name: "Supersalad",
     img:
       "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
     text:
@@ -72,6 +77,7 @@ export const database = [
     price: "💵💵💵💵",
     category: "🥦🌱",
     route: "#",
-    menu: "#"
+    menu: "#",
+    filter: ["salat", "vegan", "vegetarisch"]
   }
 ];
