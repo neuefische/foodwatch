@@ -68,11 +68,11 @@ export const database = [
     filter: ["vegan", "vegetarisch", "burger"]
   },
   {
-    name: "Supersalad",
+    name: "Supasalad Salatbar",
     img:
-      "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+      "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
     text:
-      "Großartige, kreative und vor allem hochwertig handgemachte Burger mit leckerer Pommes.Die Soßenauswahl ist mega und alles wird frisch gemacht. Definitiv ein Besuch wert!",
+      "Super knackige Salate, krosse Paninis, heiße Suppen und erfrischende Säfte gibt es bei Supasalad. Der Preis ist recht stolz, in Sachen Frische und Geschmack lohnt es sich aber.",
     stars: "⭐️⭐️⭐⭐",
     price: "💵💵💵💵",
     category: "🥦🌱",
